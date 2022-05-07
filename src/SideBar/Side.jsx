@@ -21,7 +21,17 @@ const Side = (props) => {
         <b>Price</b>
         <div>
           {" "}
-          <input type="range" name="" id="" />
+          <input
+            type="range"
+            name=""
+            id=""
+            min={0}
+            max={69}
+            value={props.range}
+            onChange={(e) => {
+              props.setRange(e.target.value);
+            }}
+          />
         </div>
       </div>
       <div className="priceRange">

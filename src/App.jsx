@@ -12,6 +12,7 @@ function App() {
   const [rating1, setRating1] = useState(false);
   const [minPrice, setMinprice] = useState("0");
   const [maxPrice, setMaxprice] = useState("50001");
+  const [range, setRange] = useState("69");
   return (
     <>
       <SearchBar />
@@ -32,6 +33,8 @@ function App() {
             maxp={maxPrice}
             setMaxprice={setMaxprice}
             setMinprice={setMinprice}
+            range={range}
+            setRange={setRange}
           />
         </div>
         <div className="nb">
@@ -40,6 +43,7 @@ function App() {
             <h1>{`${maxPrice}`}</h1>
             <h1>{`${rating2}`}</h1>
             <h1>{`${rating1}`}</h1>
+            <h1>{`${range}`}</h1>
           </div>{" "}
           {dummyInfo.map((tits) => (
             <Card somesh={tits} />
