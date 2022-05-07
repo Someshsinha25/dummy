@@ -23,7 +23,15 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.boobs {
+  display: flex;
+}
+.pen {
+  width: 15%;
+}
+.nb {
+  width: 85%;
+}
 .App-link {
   color: #61dafb;
 }

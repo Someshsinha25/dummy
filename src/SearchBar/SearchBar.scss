@@ -1,0 +1,18 @@
+.main-nav-container {
+  background-color: #2874f0;
+  height: 56px;
+  .nav {
+    width: 80%;
+    background-color: #2874f0;
+    height: 56px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .imgc {
+      .imcd {
+        height: 56px;
+        width: 100%;
+      }
+    }
+  }
+}

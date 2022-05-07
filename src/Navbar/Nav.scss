@@ -1,0 +1,13 @@
+.nabyy {
+  display: flex;
+  justify-content: space-around;
+  background-color: purple;
+  height: 56px;
+  align-items: center;
+  .ele select {
+    border: none;
+    background-color: purple;
+    color: white;
+    width: 50px;
+  }
+}
